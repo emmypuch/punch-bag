@@ -5,7 +5,7 @@ new Vue({
     ended: false,
   },
 
-  method: {
+  methods: {
     punch: function () {
       this.health -= 10;
       if (this.health <= 0) {
