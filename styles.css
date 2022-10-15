@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+div#bag {
+    width: 200px;
+    height: 500px;
+    margin: 0 auto;
+    background: url(/images/bag.png) center no-repeat;
+    background-size: 80%;
+}
+
+div#bag-health {
+    width: 200px;
+    border: 2px solid #000;
+    margin: 0 auto 20px auto;
+}
+
+div#bag-health div {
+    height: 20px;
+    background: crimson;
+}
+
+div#control-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    margin: 0 auto;
+}
+
+div#control-btn button {
+    padding: 10px 30px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+div#control-btn button:nth-child(1) {
+    background: rgb(205, 73, 73);
+    color: rgb(238, 227, 227);
+    border-radius: 4px;
+    border: none;
+    font-size: 1rem;
+}
+
+div#control-btn button:nth-child(2) {
+    background: rgb(70, 45, 45);
+    color: rgb(238, 227, 227);
+    border-radius: 4px;
+    border: none;
+    font-size: 1rem;
+}
