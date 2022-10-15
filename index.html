@@ -21,12 +21,12 @@
 
         <!-- Bag Control Buttons -->
         <div id="control-btn">
-            <button>Punch</button>
-            <button>Restart</button>
+            <button v-on:click="punch" v-show="!ended">Punch</button>
+            <button v-on:click="restart">Restart</button>
         </div>
     </div>
 
-    <script src="app.js"></script>
+    <script src="https://unpkg.com/vue@2"></script>
 </body>
 
 </html>
